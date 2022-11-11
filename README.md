@@ -5,6 +5,7 @@ Simple Rest API for exposing the air quality information of a nearest city to GP
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Endpoints](#endpoints)
+* [CRON JOB](#cron-job)
 
 ## Technologies
 Project is created with:
