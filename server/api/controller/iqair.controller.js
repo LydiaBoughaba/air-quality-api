@@ -29,7 +29,7 @@ export default class IqairController {
         })
       }
     }catch (error){
-      res.status(400).json({ error })
+      //res.status(400).json({ error })
     }
   }
   static async saveAirQuality(latitude, longitude){

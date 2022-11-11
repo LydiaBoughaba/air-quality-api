@@ -5,7 +5,7 @@ import IqairController from './server/api/controller/iqair.controller.js'
 import cron from 'node-cron'
 dotenv.config()
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 8080
 
 server.listen(port, () => {
   console.log(`listening on port ${port}`)

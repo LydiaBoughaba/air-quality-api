@@ -42,7 +42,7 @@ http://localhost:4000/api/v1/iqair
 Return nearest city's air quality, using a specified set of GPS coordinates.
 
 #### BODY
-```
+```json
 {
     "latitude": "48.856613",
     "longitude": "2.352222"
