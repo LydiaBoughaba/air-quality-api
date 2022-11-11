@@ -6,6 +6,7 @@ Simple Rest API for exposing the air quality information of a nearest city to GP
 * [Setup](#setup)
 * [Endpoints](#endpoints)
 * [CRON JOB](#cron-job)
+* [Tests](#tests)
 
 ## Technologies
 Project is created with:
@@ -63,4 +64,10 @@ cron.schedule("* * * * *", ()=>{
   console.log("cron job is running!");
   IqairController.saveAirQuality(48.856613, 2.352222)
 })
+```
+
+## Tests
+To run the tests : 
+```
+npx jest
 ```
