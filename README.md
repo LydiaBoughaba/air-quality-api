@@ -14,6 +14,7 @@ Project is created with:
 * MongoDB version : 6.0.2
 * Mongoose version : 6.7.2
 * node-cron version : 3.0.2
+* supertest version : 6.3.1
 * request version : 2.88.2
 * morgan version : 1.10.0
 * dotenv version : 10.0.0
