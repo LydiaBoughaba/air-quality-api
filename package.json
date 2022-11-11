@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-rest-api-iqair",
+  "version": "0.0.1",
+  "description": "Simple REST API for exposing the air quality information of a nearest city",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "LydiaBoughaba",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
