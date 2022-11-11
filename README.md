@@ -34,13 +34,13 @@ npm run start
 
 ## Endpoints
 
-* GET Air Quality with a given zone
+### GET Air Quality with a given zone
 ```
 http://localhost:4000/api/v1/iqair
 ```
 Return nearest city's air quality, using a specified set of GPS coordinates.
 
-### BODY
+#### BODY
 ```
 {
     "latitude": "48.856613",
@@ -48,7 +48,7 @@ Return nearest city's air quality, using a specified set of GPS coordinates.
 }
 ```
 
-* GET Datetime where the paris zone is the most polluted
+### GET Datetime where the paris zone is the most polluted
 ```
 http://localhost:4000/api/v1/iqair/paris-most-polluted
 ```
