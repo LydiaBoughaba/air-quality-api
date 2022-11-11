@@ -53,3 +53,13 @@ Return nearest city's air quality, using a specified set of GPS coordinates.
 http://localhost:4000/api/v1/iqair/paris-most-polluted
 ```
 Return datetime (date and time) where the paris zone is the most polluted (based on the CRON JOB results).
+
+## CRON JOB
+The CRON JOB runs to check the air quality for the Paris zone every 1 minute than it saves them in the
+database with date and time when saving it.
+```javascript
+cron.schedule("* * * * *", ()=>{
+  console.log("cron job is running!");
+  IqairController.saveAirQuality(48.856613, 2.352222)
+})
+```
